@@ -1,0 +1,42 @@
+body {
+   background-color: whitesmoke;
+}
+h1  {
+    font-family: Impact, 'Arial Narrow Bold', sans-serif;
+    text-align: left;
+    font-size: x-large;
+  
+  }
+  ul  {
+   background-color: rgb(211, 6, 201);
+   border-radius: 5%;
+   
+  }
+
+li  {
+   list-style: none;
+   display: inline-block;
+   padding-right: 6%;
+   text-align: right;
+      
+}
+
+.webtext  {
+
+    border: 5px;
+}
+.container {
+   display: flex;
+   flex-wrap: wrap;
+   
+
+}
+img {
+   width: 450px;
+   height: 300px;
+   margin: 10px;
+   transition: all 1s;
+}
+img:hover {
+   transform: scale(1.1);
+}
